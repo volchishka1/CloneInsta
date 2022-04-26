@@ -10,7 +10,7 @@ import {SvgSeeFavourite} from "../assets/icons/IconSvgSeeFavourite";
 export const PostCard = () => {
     return(
         <View>
-            <View style={styles.tooContainer}>
+            <View style={styles.topContainer}>
                 <View style={styles.flexRow}>
                     <Image style={styles.avatar} source={{ uri: "https://sun9-31.userapi.com/s/v1/ig2/07puDBaIAtnQPdW82nTuw10WYdgWkHRzARB5gCgRSO1roVfvKNWrPWOROLnxH3rsWLcZJhoGfVcEyrBaLWOFFY6U.jpg?size=810x1080&quality=96&type=album"}}/>
                     <Text style={{marginLeft: 9}} Ag={AgEnum.SUBTITLE}>Volchishka</Text>
@@ -23,7 +23,7 @@ export const PostCard = () => {
             <View style={styles.imageContainer}>
                 <Image style={styles.image} source={{ uri: "https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg"}}/>
             </View>
-            <View style={styles.tooContainer}>
+            <View style={styles.topContainer}>
                 <View style={styles.flexRow}>
                     <TouchableOpacity>
                         <SvgFavourite />
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
-    tooContainer: {
+    topContainer: {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",

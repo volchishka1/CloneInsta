@@ -9,6 +9,7 @@ import {
   View,
 } from 'react-native';
 import {HomeScreen} from "./src/screens/HomeScreen";
+import {SearchScreen} from "./src/screens/SearchScreen";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
 
   return (
     <SafeAreaView >
-        <HomeScreen />
+        <SearchScreen />
+        {/*<HomeScreen />*/}
     </SafeAreaView>
   );
 };

@@ -13,12 +13,12 @@ import {HistoryHelper} from "../helpers/HistoryHelper";
 import {IHistory} from "../types/HistoryTypes";
 
 export const HomeScreen = () => {
-    
+
     return (
         <>
-            <View style={styles.tooContainer}>
+            <View style={styles.topContainer}>
                 <SvgLogo/>
-                <View style={styles.tooContainerIcons}>
+                <View style={styles.topContainerIcons}>
                     <TouchableOpacity style={{marginRight: 20}}>
                         <SvgPlus/>
                     </TouchableOpacity>
@@ -60,15 +60,14 @@ export const HomeScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    tooContainer: {
+    topContainer: {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
         paddingHorizontal: 16,
         paddingTop: 6
-
     },
-    tooContainerIcons: {
+    topContainerIcons: {
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
