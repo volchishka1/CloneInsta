@@ -1,9 +1,7 @@
 import React from 'react';
 import {SvgLogo} from '../assets/icons/IconSvgLogo';
-import {SvgPlus} from "../assets/icons/IconSvgPlus";
-import {SvgFavourite} from "../assets/icons/IconSvgAddFavourite";
 import {SvgMessages} from "../assets/icons/IconSvgMessages";
-import {Dimensions, Image, ScrollView, StyleSheet, TouchableOpacity, View} from "react-native";
+import {Image, ScrollView, StyleSheet, TouchableOpacity, View} from "react-native";
 import {AgEnum, Text} from "../components/ui/Text";
 import {TextHelper} from "../helpers/TextHelper";
 import {PostCard} from "../components/PostCard";
@@ -19,14 +17,6 @@ export const HomeScreen = () => {
             <View style={styles.topContainer}>
                 <SvgLogo/>
                 <View style={styles.topContainerIcons}>
-                    <TouchableOpacity style={{marginRight: 20}}>
-                        <SvgPlus/>
-                    </TouchableOpacity>
-
-                    <TouchableOpacity style={{marginRight: 20}}>
-                        <SvgFavourite/>
-                    </TouchableOpacity>
-
                     <TouchableOpacity>
                         <SvgMessages/>
                     </TouchableOpacity>

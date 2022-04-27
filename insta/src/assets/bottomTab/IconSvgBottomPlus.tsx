@@ -1,7 +1,7 @@
 import * as React from "react";
 import Svg, { Path, Rect } from "react-native-svg";
 
-export const SvgPlus = () => (
+export const SvgBottomPlus = () => (
     <Svg
         width={24}
         height={24}

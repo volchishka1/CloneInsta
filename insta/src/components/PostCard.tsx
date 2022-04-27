@@ -5,7 +5,8 @@ import {AgEnum, Text} from "./ui/Text";
 import {SvgFavourite} from "../assets/icons/IconSvgAddFavourite";
 import {SvgComment} from "../assets/icons/IconSvgComment";
 import {SvgSend} from "../assets/icons/IconSvgSend";
-import {SvgSeeFavourite} from "../assets/icons/IconSvgSeeFavourite";
+import { SvgSeeFavourite } from "../assets/icons/IconSvgSeeFavourite";
+
 
 export const PostCard = () => {
     return(

@@ -1,6 +1,5 @@
 import React from "react";
 import {Image, ScrollView, StyleSheet, TouchableOpacity, View} from "react-native";
-import {AgEnum, Text} from "../components/ui/Text";
 import {DataHelper} from "../helpers/DataHelper";
 
 export const SearchScreen = () => {
