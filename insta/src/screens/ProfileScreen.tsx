@@ -1,12 +1,12 @@
 import React from "react";
 import {View} from "react-native";
-import {AgEnum, Text} from "../components/ui/Text";
+import Map from "../components/map/Map";
 
 export const ProfileScreen = () => {
 
     return (
         <View>
-            <Text Ag={AgEnum.H1}>ProfileScreen</Text>
+            <Map />
         </View>
     )
 }
