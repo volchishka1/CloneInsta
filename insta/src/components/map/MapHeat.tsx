@@ -11,29 +11,29 @@ export default class MapHeat extends Component {
 
     state = {
         initialPosition: {
-            latitude: 40.7143,
-            longitude: -74.0042,
+            latitude: 53.9,
+            longitude: 27.5667,
             latitudeDelta: 0.4,
             longitudeDelta: 0.15,
         }
     }
 
     points = [
-        {latitude: 40.7128, longitude: -74.0065, weight: 1},
-        {latitude: 40.7121, longitude: -74.0042, weight: 1},
-        {latitude: 40.6102, longitude: -74.0060, weight: 1},
-        {latitude: 40.7123, longitude: -74.0052, weight: 1},
-        {latitude: 40.7232, longitude: -74.0042, weight: 1},
-        {latitude: 40.7128, longitude: -74.0224, weight: 1},
-        {latitude: 40.7123, longitude: -74.0053, weight: 1},
-        {latitude: 40.7181, longitude: -74.0042, weight: 1},
-        {latitude: 40.7124, longitude: -74.0123, weight: 1},
-        {latitude: 40.7148, longitude: -74.0012, weight: 1},
-        {latitude: 40.6128, longitude: -74.0127, weight: 1},
-        {latitude: 40.7223, longitude: -74.0153, weight: 1},
-        {latitude: 40.7193, longitude: -74.0052, weight: 1},
-        {latitude: 40.724, longitude: -74.0013, weight: 1},
-        {latitude: 40.7518, longitude: -74.0012, weight: 1},
+        {latitude: 53.9, longitude: 27.5667, weight: 0.3},
+        {latitude: 53.7121, longitude: 27.5642, weight: 0.25},
+        {latitude: 53.6102, longitude: 27.5660, weight: 0.25},
+        {latitude: 53.7123, longitude: 27.5652, weight: 0.25},
+        {latitude: 53.7232, longitude: 27.5642, weight: 0.25},
+        {latitude: 53.7128, longitude: 27.5624, weight: 0.25},
+        {latitude: 53.7123, longitude: 27.5653, weight: 0.25},
+        {latitude: 53.7181, longitude: 27.5642, weight: 0.25},
+        {latitude: 53.7124, longitude: 27.5623, weight: 0.25},
+        {latitude: 53.7148, longitude: 27.5612, weight: 0.25},
+        {latitude: 53.6128, longitude: 27.5627, weight: 0.25},
+        {latitude: 53.7223, longitude: 27.5653, weight: 0.25},
+        {latitude: 53.7193, longitude: 27.5652, weight: 0.25},
+        {latitude: 53.724, longitude: 27.5613, weight: 0.25},
+        {latitude: 53.7518, longitude: 27.5612, weight: 0.25},
     ];
 
     render() {
